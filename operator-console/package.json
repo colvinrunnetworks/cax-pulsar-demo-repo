@@ -1,0 +1,13 @@
+{
+  "name": "meridian-gs-operator-console",
+  "version": "0.0.0-demo",
+  "private": true,
+  "description": "INERT DEMO FIXTURE — not a runnable app. Operator console manifest for the COSMIC-AX PULSAR demo. Dependency versions are intentionally outdated. DO NOT npm install. See repository README.",
+  "_warning": "Non-functional. No build, no start, no lifecycle scripts by design.",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "minimist": "1.2.0",
+    "axios": "0.21.0"
+  }
+}

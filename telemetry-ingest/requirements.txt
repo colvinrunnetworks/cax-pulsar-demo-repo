@@ -1,0 +1,8 @@
+# meridian-gs / telemetry-ingest
+# NON-FUNCTIONAL DEMONSTRATION MANIFEST. Not installed, not run.
+# Versions are intentionally outdated for the COSMIC-AX PULSAR demo. DO NOT pip install.
+# See the repository README.
+requests==2.19.0
+PyYAML==5.3
+Jinja2==2.10
+cryptography==2.3

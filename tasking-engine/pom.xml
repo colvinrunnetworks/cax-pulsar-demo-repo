@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  meridian-gs / tasking-engine
+  NON-FUNCTIONAL DEMONSTRATION MANIFEST. This pom.xml is not built, deployed, or run.
+  Dependency versions are intentionally outdated for the COSMIC-AX PULSAR demo.
+  See the repository README before doing anything with this file.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.colvinrun.meridian</groupId>
+  <artifactId>tasking-engine</artifactId>
+  <version>0.0.0-demo</version>
+  <packaging>jar</packaging>
+  <name>MERIDIAN-GS Tasking Engine (demo fixture)</name>
+  <description>Inert manifest. Satellite contact scheduling and command-uplink service — DEMO ONLY.</description>
+
+  <dependencies>
+    <!-- Intentionally vulnerable: Log4Shell family (CVE-2021-44228 / CVE-2021-45046) — on CISA KEV -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.14.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.14.1</version>
+    </dependency>
+
+    <!-- Intentionally vulnerable: Apache Struts 2 (CVE-2017-5638 family) -->
+    <dependency>
+      <groupId>org.apache.struts</groupId>
+      <artifactId>struts2-core</artifactId>
+      <version>2.5.10</version>
+    </dependency>
+
+    <!-- Intentionally vulnerable: Jackson deserialization CVEs -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.8</version>
+    </dependency>
+  </dependencies>
+</project>
