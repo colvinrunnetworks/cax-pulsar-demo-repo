@@ -160,6 +160,20 @@
     },
     {
       "type": "library",
+      "bom-ref": "npm-react",
+      "name": "react",
+      "version": "18.2.0",
+      "purl": "pkg:npm/react@18.2.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "npm-nx",
+      "name": "nx",
+      "version": "21.5.0",
+      "purl": "pkg:npm/nx@21.5.0"
+    },
+    {
+      "type": "library",
       "bom-ref": "golang-jwt-go",
       "name": "jwt-go",
       "version": "3.2.0",
